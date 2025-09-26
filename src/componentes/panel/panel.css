@@ -1,0 +1,8 @@
+.panel {
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(75, 75, 75, 0.2);
+  border-radius: 16px;
+  padding: 16px 32px;
+  margin: 20px 0;
+  width: auto;
+}

@@ -1,0 +1,24 @@
+.experiencia {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 10px;
+}
+
+thead {
+  background-color: #f2e8df;
+  padding: 8px;
+  color: #a66556;
+  border-bottom: 1px solid;
+}
+
+th {
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f3ee;
+}

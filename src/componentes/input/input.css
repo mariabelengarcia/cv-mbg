@@ -1,0 +1,27 @@
+
+.campo label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+}
+
+.campo.error input,
+.campo.error textarea {
+  border: 1px solid #d20f0f;
+}
+
+.campo.error p {
+  color: #d20f0f;
+  font-size: 14px;
+  margin: 0;
+}

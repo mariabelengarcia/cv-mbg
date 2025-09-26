@@ -1,0 +1,7 @@
+.foto-perfil {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 5px 5px rgba(75, 75, 75, 0.2);
+}
