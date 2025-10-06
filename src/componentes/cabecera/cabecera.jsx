@@ -6,7 +6,7 @@ import "./cabecera.css"
 
 export default function Cabecera() {
 
-  const [edad, setEdad] = useState(32); // estado inicial
+  const [edad, setEdad] = useState(32); 
 
   const aumentarEdad = () => {
     setEdad(edad + 1);

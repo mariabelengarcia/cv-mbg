@@ -11,12 +11,12 @@ export default function Experiencia(){
 
 
 
-  // 🗑️ Eliminar última
+
   const eliminarUltima = () => {
     setExperiencias(prev => prev.slice(0, -1));
   };
 
-  // 🗑️ Eliminar primera
+
   const eliminarPrimera = () => {
     setExperiencias(prev => prev.slice(1));
   };
